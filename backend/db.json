@@ -1,19 +1,24 @@
 {
   "products": [
     {
-      "name": "Notebook MAC Pro",
-      "price": "1600.50",
-      "id": 7
+      "name": "Qualquer coisa",
+      "price": "70",
+      "id": 10
     },
     {
-      "name": "Samsung S20+ ultra",
-      "price": "7000.75 ",
-      "id": 8
+      "name": "seila",
+      "price": "4555555",
+      "id": 11
     },
     {
-      "name": "aleatorio",
-      "price": "100.99",
-      "id": 9
+      "name": "Espada",
+      "price": "388",
+      "id": 12
+    },
+    {
+      "name": "lucas",
+      "price": "050",
+      "id": 13
     }
   ]
 }
