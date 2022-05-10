@@ -1,10 +1,13 @@
 .header {
     background-color: #3f51b5;
-    height: 20%;
+    height: 20%;;
     flex-direction: row;
     color: #fff;
     text-shadow: 0 0 4px rgb(0, 0, 0);
     padding-right: 135%;
+    text-align: center;
+    display: flex;
+    width: 100%;
 }
 
 .header a {
@@ -12,12 +15,21 @@
     align-items: center;
     text-decoration: none;
     margin-right: 10%;
+    padding: 10px;
 }
 
 .header .logo {
     margin-left: 0%;
     margin-right: 5%;
-    max-height: 8rem;
+    max-height: 5rem;
+    border-radius: 50%;
+    padding: 10px;
 }
+
+.right{
+    text-align:end;
+}
+
+
 
 

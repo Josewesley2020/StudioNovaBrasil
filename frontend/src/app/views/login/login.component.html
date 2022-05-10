@@ -1,17 +1,29 @@
 
 <mat-card class="login">
-<div>
-    <label for="username">Username:</label>
-    <input type="text" id="username" name="username">
-</div>
+    <div class="campoInput">
+        <mat-form-field appearance="fill" floatLabel="always">
+            <mat-label>Login</mat-label>
+            <input matInput type="text" class="example-right-align" placeholder="Digite seu login">
+        </mat-form-field>
+        
+        <mat-form-field appearance="fill">
+            <mat-label>Enter your password</mat-label>
+            <input matInput [type]="hide ? 'password' : 'text'">
+            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+              <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </button>
+        </mat-form-field>
+    </div>
 
 <div>
-    <label for="pass">Password</label>
-    <input type="password" id="pass" name="password"
-           minlength="8" required>
+    <button mat-button>Sign in</button>
+    <button mat-button>Register</button>
 </div>
 
-<input type="submit" value="Sign in">
+
 </mat-card>
+
+
+  
 
 

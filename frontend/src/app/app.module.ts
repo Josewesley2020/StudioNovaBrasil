@@ -37,6 +37,9 @@ import { registerLocaleData } from '@angular/common';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 import { LoginComponent } from './views/login/login.component';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatIconModule} from '@angular/material/icon';
+
 
 registerLocaleData(localePt);
 
@@ -56,6 +59,7 @@ registerLocaleData(localePt);
     ProductUpdateComponent,
     ProductDeleteComponent,
     LoginComponent
+    
   ],
   imports: [
     BrowserModule,
@@ -73,8 +77,10 @@ registerLocaleData(localePt);
     MatInputModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule
-  ],
+    MatSortModule,
+    MatGridListModule,
+    MatIconModule
+    ],
   providers: [
     {
       provide: LOCALE_ID,
