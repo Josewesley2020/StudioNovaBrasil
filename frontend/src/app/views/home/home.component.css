@@ -1,9 +1,17 @@
-.home .title {
-    font-size: 2rem;
-    font-weight: 300;
-    line-height: 1.2;
+.container {
+    background-image: url("../../../assets/img/barber2.jpg");
+    height: 88vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: bottom;
+
+    display: flex;
+    align-items: center;
 }
 
-.home .subtitle {
-    font-size: 1.1rem;
+.container h1 {
+    color: wheat;
+    margin-left: 30px;
+    font-size: 5em;
+    padding: 50px;
 }
